@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.btn-div{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 8rem;
+    left: 15rem;
+}
+
+.btn-div h1{
+    margin: 20px;
+    padding: 0px;
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.custom-btn button{
+    border: none;
+    background: none;
+    cursor: auto;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(202, 202, 202);
+    outline: none;
+    width: 20rem;
+    text-align: right;
+}
+
+.custom-btn a{
+    color: goldenrod;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.custom-btn a:hover{
+    color: #202020 !important;
+}
+
+
+/* Signup PAGE STARTS */
+.signup-page-resturant {
+	color: #fff;
+	background: rgb(67, 180, 224);
+	font-family: 'Roboto', sans-serif;
+}
+.signup-page-customer {
+	color: #fff;
+	background: rgb(97, 43, 97);
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+    color: black !important;
+    font-weight: 500;
+
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}  
+.register-btn-restaurant{
+	background: rgb(67, 180, 224) !important;
+    border: 2px solid rgb(67, 180, 224) !important ;
+    outline: none !important;
+}
+.register-btn-customer{
+	background: rgb(97, 43, 97) !important;
+    border: 2px solid rgb(97, 43, 97) !important ;
+    outline: none !important;
+}
+
+/* SIGNUP PAGE ENDs */
+
+/* SIDENAVBAR STARTS */
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #202020;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    margin-left: 10px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 20%; /* Same as the width of the sidenav */
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 10px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* SIDENAVBAR ENDS */
+
+
+/* dashboard page start */
+
+#signoutLink{
+    margin-top: 20px !important;
+}
+
+#signoutLink:hover{
+    font-size: 22px;
+    font-weight: 600;
+    color: white
+}
+
+.createDishImg{
+    width: 100%;
+    height: 100vh;
+}
+
+.Padding{
+    padding: 20px 10px 0px 0px;
+    margin-left: 21%;
+}
+
+.addDishesHeading{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .imgInputFile{
+    margin-left: 20px;
+  }
+
+  .foodTypeDropDown{
+    margin-bottom: 20px;
+  }
+
+  .deliveryTypeDropDown{
+    margin-bottom: 20px;
+  }
+
+  .imgUploadBtn{
+    border: 2px solid rgb(67, 180, 224);
+    color: white;
+    background-color: rgb(67, 180, 224);
+    font-weight: 800;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+  }
+
+  .addDishBtn{
+    border: 2px solid rebeccapurple;
+    color: white;
+    background-color: rebeccapurple;
+    font-weight: 800;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .displayN{
+      display: none;
+  }
+
+  .displayB{
+      display: block;
+  }
+  /* CUSTOMER DASHBOARD STARTS */
+
+.custdashboardBody{
+    background-color: skyblue;
+}
+
+.custDashboardH1{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.signoutBtnCust{
+    text-align: right;
+    margin: 35px 50px 0px 0px !important;
+}
+
+  /* CUSTOMER DASHBOARD ENDS */
